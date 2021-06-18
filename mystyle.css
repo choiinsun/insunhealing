@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+
+body{
+    overflow: hidden;
+    height: 100%;
+    margin: 0px;
+}
+
+#mouse{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 200;
+}
+
+#slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#imageContainer{
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+#cloud{
+    width: 1920px;
+    height: 1080px;
+}
+
+#menubar{
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+#menus{
+    width: 630px;
+    display: flex;
+    justify-content: center;
+}
+
+#menulist{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-around;
+    color: rgb(54, 62, 70);
+    user-select: none;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px
+}
+
+
+li:hover{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#menu01{
+    margin-top: 10px;
+}
+
+#menu06{
+    margin-top: 10px;
+}
+
+#menulist li{
+    margin: 10px 30px;
+}
+
+#textcontent{
+    width: 100%;
+    user-select: none;
+    list-style: none;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 80px;
+    position: fixed;
+}
+
+#textcontent li{
+    margin: 8px 0px;
+}
+
+#text{
+    align-items: center;
+    color: #ffffff;
+    user-select: none;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    margin-top: 530px;
+}
+
+#footertext{
+    margin-bottom: 270px;
+    color: #ffffff;
+    user-select: none;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    padding-top: 180px;
+}
+
+#copyright{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 800;
+    
+}
+
+#commercial{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+}
